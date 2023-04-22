@@ -1,24 +1,29 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
+import { BrowserRouter,Routes,Route } from 'react-router-dom';
 import './App.css';
+import Header from './components/header';
+import Home from './components/pages/home';
+import About from './components/pages/about'; 
+import UncontrolledExample from './components/pages/weedings';
+import BabyBump from './components/pages/babybump';
+import SareeFunction from './components/pages/sareefunction';
+import Contact from './components/pages/contact';
+import Footer from './components/footer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+        <Header></Header>
+        <Routes>
+            <Route path='/' element={<Home></Home>}></Route>
+            <Route path='/weddings' element={<UncontrolledExample></UncontrolledExample>}></Route>
+            <Route path='/babybump' element={<BabyBump></BabyBump>}></Route>
+            <Route path='/sareefunction' element={<SareeFunction></SareeFunction>}></Route>
+            <Route path='/about' element={<About></About>}></Route>
+            <Route path='/contact' element={<Contact></Contact>}></Route>
+        </Routes>
+        <Footer></Footer>
+    </BrowserRouter>
   );
 }
 
