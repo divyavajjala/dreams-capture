@@ -65,6 +65,12 @@ body {
     top: 590px;
     font-size: 18px;
 }
+.description {
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    margin: 23px;
+}
 .footer {
     background-color: rgb(128, 128, 128, 0.1);
     padding: 10px 0;
