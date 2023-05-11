@@ -4,9 +4,9 @@ import './App.css';
 import Header from './components/header';
 import Home from './components/pages/home';
 import About from './components/pages/about'; 
-import UncontrolledExample from './components/pages/weedings';
+import WeddingShootCarousel from './components/pages/weedings';
 import BabyBump from './components/pages/babybump';
-import SareeFunction from './components/pages/sareefunction';
+import SareeCeremony from './components/pages/sareefunction';
 import Contact from './components/pages/contact';
 import Footer from './components/footer';
 
@@ -16,9 +16,9 @@ function App() {
         <Header></Header>
         <Routes>
             <Route path='/' element={<Home></Home>}></Route>
-            <Route path='/weddings' element={<UncontrolledExample></UncontrolledExample>}></Route>
+            <Route path='/weddings' element={<WeddingShootCarousel></WeddingShootCarousel>}></Route>
             <Route path='/babybump' element={<BabyBump></BabyBump>}></Route>
-            <Route path='/sareefunction' element={<SareeFunction></SareeFunction>}></Route>
+            <Route path='/sareefunction' element={<SareeCeremony></SareeCeremony>}></Route>
             <Route path='/about' element={<About></About>}></Route>
             <Route path='/contact' element={<Contact></Contact>}></Route>
         </Routes>
