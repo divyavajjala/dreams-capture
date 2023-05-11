@@ -6,13 +6,13 @@ import image3 from "../../assests/prewed-4.jpg"
 // import image5 from "../../assests/prewed3.jpg"
 // import image6 from "../../assests/wedding2.jpg"
 
-function UncontrolledExample() {
+function WeddingShootCarousel() {
   return (
     <>
         <Carousel>
         <Carousel.Item>
             <img
-            className="d-block w-100" src={image1}alt="First slide"
+            className="d-block w-100" src={image1}alt="couple haldi ceremony "
             />
             <Carousel.Caption>
             {/* <h3>First slide label</h3>
@@ -23,7 +23,7 @@ function UncontrolledExample() {
             <img
             className="d-block w-100"
             src={image2}
-            alt="Second slide"
+            alt="pre-wedding shoot"
             />
 
             <Carousel.Caption>
@@ -35,7 +35,7 @@ function UncontrolledExample() {
             <img
             className="d-block w-100"
             src={image3}
-            alt="Third slide"
+            alt="wedding ceremony"
             />
 
             <Carousel.Caption>
@@ -51,7 +51,7 @@ function UncontrolledExample() {
   );
 }
 
-export default UncontrolledExample;
+export default WeddingShootCarousel;
 // function Weddings() {
 //     return(
 //         <div>
