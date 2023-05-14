@@ -28,12 +28,11 @@ function App() {
             <Footer></Footer>
         </BrowserRouter>
         <div className='whats-app'>
-            <a className="whats-app-Icon" href="https://wa.me/91 9849075327?text=" target='_blank' rel='noopener  noreferrer'><WhatsAppIcon></WhatsAppIcon></a>
+            <a className="whats-app-Icon" href="https://wa.me/919849075327?text=" target='_blank' rel='noopener  noreferrer'><WhatsAppIcon></WhatsAppIcon></a>
         </div>
         <div className='phone'>
             <a  className="phone-Icon" href="tel: +91 9849075327" target='_blank' rel='noopener  noreferrer'><PhoneEnabledIcon></PhoneEnabledIcon></a>
         </div>
-
     </div>
   );
 }
