@@ -6,14 +6,14 @@ function Contact() {
             <div className = "contact" style={{backgroundImage:`url(${bride})`, backgroundRepeat:"no-repeat",height: 680, width: 1460}}>
                 <form className="form">
                     <h4>GET IN TOUCH</h4>
-                    <div className="phone">
+                    {/* <div className="phone"> */}
                         <h5>PHONE</h5>
                         <span className="contact-Num">+91 9849075327</span>
-                    </div>
-                    <div className="adrs">
+                    {/* </div> */}
+                    {/* <div className="adrs"> */}
                         <h5>REACH US</h5>
                         <span className="address">R&R colony, Vantimamidi, Telangana 502279, India</span>
-                    </div>
+                    {/* </div> */}
                     <label>First Name:
                         <input type="text"></input><br></br><br></br>
                     </label>

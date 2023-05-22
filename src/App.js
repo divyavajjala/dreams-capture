@@ -7,6 +7,10 @@ import About from './components/pages/about';
 import WeddingShootCarousel from './components/pages/weedings';
 import BabyBump from './components/pages/babybump';
 import SareeCeremony from './components/pages/sareefunction';
+import Candid from './components/pages/candid';
+import Live from './components/pages/Live';
+import Postwedding from './components/pages/postwedding';
+import Artists from './components/pages/makeup';
 import Contact from './components/pages/contact';
 import Footer from './components/footer';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
@@ -24,6 +28,10 @@ function App() {
                 <Route path='/sareefunction' element={<SareeCeremony></SareeCeremony>}></Route>
                 <Route path='/about' element={<About></About>}></Route>
                 <Route path='/contact' element={<Contact></Contact>}></Route>
+                <Route path='/candid' element={<Candid></Candid>}></Route>
+                <Route path='/postwedding' element={<Postwedding></Postwedding>}></Route>
+                <Route path='/live' element={<Live></Live>}></Route>
+                <Route path='/makeup' element={<Artists></Artists>}></Route>
             </Routes>
             <Footer></Footer>
         </BrowserRouter>
