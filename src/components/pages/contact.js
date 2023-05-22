@@ -5,7 +5,7 @@ function Contact() {
             {/* <h2>Contact</h2> */}
             <div className = "contact" style={{backgroundImage:`url(${bride})`, backgroundRepeat:"no-repeat",height: 680, width: 1460}}>
                 <form className="form">
-                    <h4>GET IN TOUCH</h4>
+                    <h5>GET IN TOUCH</h5>
                     {/* <div className="phone"> */}
                         <h5>PHONE</h5>
                         <span className="contact-Num">+91 9849075327</span>
